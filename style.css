@@ -160,7 +160,7 @@ section { padding: 88px 0; }
   transition: box-shadow 0.2s, transform 0.2s;
 }
 .team-card:hover { box-shadow: var(--shadow); transform: translateY(-3px); }
-.team-card__photo-wrap { position: relative; height: 360px; overflow: hidden; }
+.team-card__photo-wrap { position: relative; aspect-ratio: 1 / 1; overflow: hidden; }
 .team-card__photo {
   height: 100%; background: var(--latte-light);
   display: flex; align-items: center; justify-content: center;
